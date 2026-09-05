@@ -17,25 +17,36 @@ export const portfolioData = {
 
   experience: [
     {
-      role: "Software Development Engineer I & II",
+      role: "Technical Project Manager Intern",
+      company: "youbloom",
+      period: "Apr 2026 – Jul 2026",
+      type: "Summer Internship",
+      highlights: [
+        "Led overall sprint planning and technical architecture design for a pilot product build; promoted to lead TPM role within the internship based on performance, overseeing team execution and delivery timelines.",
+        "Drove successful delivery of a full-stack pilot application (React front-end, Laravel back-end), earning a direct recommendation from CEO Phil Harrington for strong technical leadership and delivery impact.",
+      ],
+    },
+    {
+      role: "Software Development Engineer II",
       company: "Bajaj Finserv Health Limited",
       period: "July 2023 – July 2025",
       type: "Full-time",
       highlights: [
-        "Implemented Micro-frontend architectures to improve disaster recovery and scalability.",
-        "Expanded Health-pay product using UPI infrastructure with a QR scanner journey for cashless insurance at any compliant healthcare provider.",
-        "Co-Developed an organisation-wide Payment Gateway Interface achieving a 99% transaction success rate.",
-        "Co-Developed an Internal-use-only UI components Library.",
-        "Led development of an AI-powered Health Risk Assessment System visualising at-risk organs on a 3D human model with 70% accuracy.",
+        "Implemented Micro-frontend architectures to improve disaster recovery and scalability of the website, reducing deployment congestion by 68%.",
+        "Co-Developed an organisation-wide Payment Gateway Interface for seamless transaction handling, leading to a 99% transaction success rate overall.",
+        "Co-Developed a Design Language System to streamline front-end development, reducing development time by 53% in future page builds.",
+        "Led a 4-person team for an AI-powered Health Risk Assessment System that analyses lab reports and lifestyle data, visualising at-risk organs on a 3D human model with 70% accuracy.",
+        "Expanded Health-pay using UPI infrastructure with a QR scanner journey enabling cashless insurance usage at any compliant healthcare provider.",
       ],
     },
     {
       role: "Associate Software Engineering Intern",
       company: "Bajaj Finserv Health Limited",
-      period: "Oct 2022 – Jun 2023",
+      period: "Oct 2022 – June 2023",
       type: "Internship",
       highlights: [
-        "Contributed to the development of Health-pay, a unique insurance product enabling cashless OPD claims without out-of-pocket payments.",
+        "Contributed to the development of Health-pay, a unique health insurance product enabling cashless OPD claims at compliant healthcare providers without out-of-pocket payments.",
+        "Received and accepted a full-time employment offer contingent upon graduation.",
       ],
     },
     {
@@ -46,6 +57,17 @@ export const portfolioData = {
       highlights: [
         "Co-assisted concept development for a portal aimed at training under-privileged children in coding.",
       ],
+    },
+  ],
+
+  recommendations: [
+    {
+      name: "Phil Harrington",
+      title: "Founder & CEO",
+      organization: "Human Health Project & youbloom",
+      email: "philh@youbloom.com",
+      context:
+        "Provided a direct recommendation for strong technical leadership and delivery impact during the youbloom Technical Project Manager internship, following successful delivery of a full-stack pilot product.",
     },
   ],
 
@@ -68,6 +90,23 @@ export const portfolioData = {
   ],
 
   projects: [
+    {
+      title: "Couch Potato Race Engineer",
+      description:
+        "A full-stack F1 analytics dashboard with session selection and multi-view race analysis. Delivers H2H lap replay (track map + telemetry), tyre/stint tools, race-pace charts, and weather radar for couch-side engineering insights.",
+      tags: ["Next.js", "Express.js", "OpenF1", "Full Stack", "Telemetry","Vercel","MongoDB","Data Warehousing", "Data Visualization","Data Caching"],
+      link: "https://www.couch-potato-race-engineer.com/",
+      links: [
+        {
+          label: "Live App",
+          url: "https://www.couch-potato-race-engineer.com/",
+        },
+        {
+          label: "How it works",
+          url: "https://www.couch-potato-race-engineer.com/how-it-works",
+        },
+      ],
+    },
     {
       title: "Distributed Map-Reduce Framework",
       description:

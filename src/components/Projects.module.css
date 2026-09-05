@@ -29,6 +29,14 @@
   line-height: 1;
 }
 
+.cardActions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 .linkBtn {
   width: 36px;
   height: 36px;
@@ -42,6 +50,27 @@
 }
 
 .linkBtn:hover {
+  color: var(--cyan);
+  border-color: var(--border-accent);
+  background: var(--cyan-glow);
+}
+
+.textLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted-2);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+
+.textLink:hover {
   color: var(--cyan);
   border-color: var(--border-accent);
   background: var(--cyan-glow);

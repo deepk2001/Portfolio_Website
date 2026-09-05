@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^11.3.19",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "framer-motion": "^11.3.19",
     "react-intersection-observer": "^9.13.0",
     "react-type-animation": "^3.2.0"
   },
@@ -23,5 +23,6 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "typescript": "^5"
-  }
+  },
+  "packageManager": "yarn@4.17.0+sha512.c2957de2f9025ab14d63b24d0d8be1f1655810e22c341042c27f7ecd017b180ec12db73d69ac366d71b304ef9f069349ce462de96f04f8f1da317f4f762c95ae"
 }
